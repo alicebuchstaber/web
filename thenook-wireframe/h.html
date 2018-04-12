@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hi</title>
+<style>
+    .wrapper {
+    width: 500px;
+        height: 100px;
+    border: 1px solid black;
+    overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+    }
+    .first {
+    float: left;
+    width: 300px;
+        height: 100px;
+    border: 1px solid red;
+    }
+    .second {
+        float: left;
+        width: 300px;
+        height: 100px;
+    margin: 0 0 0 302px; /* considering the border you need to use a margin so the content does not float under the first div*/
+    }
+
+</style>
+</head>
+<body>
+
+<div class="wrapper"></div>
+<div class="first"></div>
+<div class="second"></div>
+
+</body>
+</html>
